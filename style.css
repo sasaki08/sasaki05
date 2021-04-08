@@ -1,9 +1,8 @@
-@charset "utf-8";
+.box1{
+  width: 300px;
+  height: 300px;
+  border: 10px solid darkslateblue;
+  border-top: none;
+}
 
-/*.container{background-color: aquamarine;}*/
-
-.box1{background-color: chartreuse;}
-
-.box2{background-color: cornflowerblue;}
-
-.box3{background-color: darkseagreen;}
+.box2{width: 100px;}
