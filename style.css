@@ -1,8 +1,29 @@
-.box1{
-  width: 300px;
-  height: 300px;
-  border: 10px solid darkslateblue;
-  border-top: none;
+.box{
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  padding: 5px;
 }
 
-.box2{width: 100px;}
+/*.container{
+  display: flex;
+  justify-content: flex-end;
+  background-color: aliceblue;
+  align-items:start; 
+  height: 1000px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}*/
+
+.body{
+  background-color: #999;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:first-child{height: 500px;}
+

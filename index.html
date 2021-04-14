@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BootStrapの練習</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>ブートストラップのフレックスボックス</title>
 </head>
-<body>
-  <div class="container">
-    <div class="box1 mt-5 bg-primary d-none d-md-block"></div>
-    <div class="box2 shadow-lg pd-3 mb-5 bg-white  mt-5 rounded">練習練習</div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-    </div>
-
+<body class="body">
+  <!--<div class="container bg-white d-flex flex-row-reverse">
+    <div class="box bg-primary" style="flex-grow: 2;">1</div>
+    <div class="box bg-secondary" style="flex-grow: 3; ">2</div>
+    <div class="box bg-primary" style="flex-grow: 1;">3</div>-->
+  <div class="container bg-white ">
+      <div class="box bg-primary flex-fill" >1</div>
+      <div class="box bg-secondary">2</div>
+      <div class="box bg-primary">3</div>
+  </div>
   </div>
   
 </body>
